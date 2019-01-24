@@ -1,7 +1,7 @@
 # Vsini
 This code can be used to measure rotational broadening (vsini) in stellar spectra. 
 
-How the code works: To measure the rotational broadening I first cross correlate a known slowly rotating spectrum with an artificially broadened version of itself. I then cross correlate the target star and the same unbroadened slow rotator. To estimate the rotational broadening I compare the full width at half maximums of the cross correlation functions. For more details see Kesseli et al. (2018): http://adsabs.harvard.edu/abs/2018AJ....155..225K
+How the code works: To measure the rotational broadening I first cross correlate a known slowly rotating spectrum with an artificially broadened version of itself. I then cross correlate the target star and the same unbroadened slow rotator. To estimate the rotational broadening I compare the full width at half maximums of the cross correlation functions. For more details see Kesseli et al. (2018): http://adsabs.harvard.edu/abs/2018AJ....155..225K and please cite this paper if you use the code!
 
 To use the program, you will need a spectrum of a star you would like to calculate the rotational broadening of and the spectrum of a slowly rotating star of a similar spectral type. We find that bins of 2 - 3 spectral subtypes work well. 
 
